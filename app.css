@@ -38,7 +38,6 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
 
 h2 {
     margin: 0;
@@ -46,6 +45,11 @@ h2 {
     transition: transform 0.5s;
     transition: transform 0.5s;
     text-shadow: 0 0 5px #01579b;
+}
+    
+}
+.destination:hover h2 {
+    transform: rotate(0deg);
 }
 
 #florida {
